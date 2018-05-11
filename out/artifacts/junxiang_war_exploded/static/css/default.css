@@ -1,0 +1,139 @@
+﻿*{margin:0;padding:0;font-family:微软雅黑}
+a{text-decoration:none;color:#437ade}
+a:hover{color:#3c6cc7;cursor:pointer}
+@font-face{font-family:Helvetica CE Bold;src:url(../fonts/helvetica ce bold.ttf’)}
+.wrap{width:100%}
+.content_wrap{width:1200px;margin:0 auto}
+.nav_top{background:#2f2e33;height:80px}
+ 
+.Wechat{z-index:9999;position:absolute;right:0;top:430px}
+.ze{width:100%;height:100%}
+.ze_blue{background:#0f84e1}
+.company_int{float:left}
+.company_int .comp_logo{width:377px}
+.company_int .comp_title{float:right;color:#fff;font-size:74px;letter-spacing:12px}
+.company_int .comp_en{color:#128c3e;font-size:34px;font-weight:600;letter-spacing:27px}
+.company_int .comp_name{margin-top:25px;padding-top:25px;color:#fff;display:inline-block;border-top:1px solid #fff;font-size:26px}
+.company_int .comp_erwei{width:100px;display:block;margin:50px auto 0}
+.nav_list{display:flex;justify-content:center;font-size:16px;text-align:center;line-height:80px}
+.nav_list a:hover{color:#fff!important;background:#147f50!important}
+ 
+.contain-fuil{padding:80px 0}
+.introduct_box{display:flex}
+.introduct_box .box_left{flex:1}
+.introduct_box .box_rigth{flex:.5;text-align:right}
+.introduct_title{font-family:Helvetica CE Bold;font-weight:700;font-size:46px;text-transform:uppercase}
+.introduct_title span:first-child{color:#49af82}
+.introduct_name{display:flex;align-items:center}
+.introduct_name .big_name{font-size:34px}
+.introduct_name .small_name{flex:1;color:#999;font-size:14px;padding-left:5px}
+.goods_int{display:inline-block;position:relative;padding:8px 24px;font-size:18px;cursor:pointer}
+.goods_int.down{color:#fff;font-size:18px;background:#437ade;border-radius:2px}
+.center{text-align:center!important}
+.red{background:#e42020!important}
+.goods_int.down:after{content:' ';position:absolute;width:0;height:0;bottom:-18px;left:50%;margin-left:-10px;border-left:10px solid transparent;border-right:10px solid transparent;border-top:12px solid #437ade}
+.mycompany_img{float:left;width:556px;height:310px;margin-right:20px}
+.mycompany{display:table-cell;padding-bottom:110px}
+.mycompany p{margin:0}
+.mycompany_title{font-weight:700;font-size:30px;color:#333}
+.mycompany_smtitle{font-weight:600;font-size:20px;color:#333;padding:10px 0 30px}
+.mycompany_content{color:#333;font-size:15px;line-height:26px}
+.com_adventure{padding:0 88px}
+.adventure_title{padding:10px 10px 20px 10px}
+.adventure_t{text-align:center;font-size:22px;margin-bottom:20px}
+.title_content{font-size:15px;color:#333;line-height:26px}
+.adventure_title.img{padding:20px 0}
+.adventure_title_bottom{padding-top:45px;padding-bottom:10px}
+.goods_button1{display:inline-block;position:relative;margin-top:12px;width:105px;height:40px;line-height:40px;text-align:center;margin-right:38px;font-size:14px;color:#fff;background:#437ade;border-radius:4px}
+.goods_button1:hover{background:#3d6fcc;cursor:pointer}
+.goods_button2:hover{background:#409973;cursor:pointer}
+.goods_button2{display:inline-block;position:relative;margin-top:12px;width:105px;height:40px;line-height:40px;text-align:center;font-size:14px;margin-right:120px;color:#fff;background:#437ade;border-radius:4px;background:#49af82}
+.list{border-top:1px solid #e6e6e6}
+.list .list_title{text-align:center;margin-top:39px;margin-bottom:20px;font-size:24px}
+.list_line{margin-left:auto;margin-right:auto;width:60px;height:4px;background:#49af82;margin-bottom:30px}
+.list_borderLine{margin-left:auto;margin-right:auto;max-width:1200px;height:1px;background:#ebebeb;margin-bottom:20px}
+.list_contain{display:flex;font-size:14px;line-height:28px;margin-bottom:20px}
+.list_box .center{text-align:center;box-sizing:border-box;padding-left:10px;padding-right:10px}
+.list_box{flex:1}
+.list_top{font-weight:700;color:#4c4c4c;font-size:18px;padding:8px 0}
+.box_contain{margin-bottom:10px;padding-bottom:10px;padding-top:10px}
+.box_contain p{color:#666}
+.grey{color:grey!important}
+.m_top{margin-top:20px;margin-left:20px}
+.m_100{margin-top:100px}
+.active_item:after{display:table;content:' ';clear:both}
+.active_box{color:#fff;margin-top:40px}
+.active_title{float:left;font-size:20px}
+.active_time{float:right;font-size:20px}
+.active_time span{color:#437ade}
+.active_content{font-size:15px;margin:32px 0}
+.active_content:after{content:' ';width:50px;height:2px;display:block;background:#fff;margin-top:35px}
+.active_more{text-align:center;color:#437ade;margin-bottom:20px}
+.active_link{color:#437ade}
+.active_link:hover{text-decoration:underline}
+.relation_box{margin-top:37px;margin-bottom:28px}
+.relation_box em{font-style:normal;font-size:18px}
+.relation_box img,.relation_box span{vertical-align:middle}
+.turn_img{width:17px;height:18px;margin:0 30px}
+.font-white{color:#fff!important}
+.join_us{font-size:16px;line-height:30px}
+.phone{position:relative;bottom:4px;left:4px}
+.email{position:relative;bottom:4px;left:4px}
+.join_box{padding-top:50px}
+.job_item{margin-top:20px}
+.f_20{font-size:18px;margin-bottom:6px}
+.job_item p:not(:nth-child(1)){color:#999;font-size:15px;line-height:26px}
+.sup_contain{padding:40px 0;margin-bottom:30px}
+.sponsor{background:#0f84e1;background-size:100%;background-attachment:fixed}
+.sup_name{color:#fff;text-align:center;padding:40px 0}
+.sup_contain img{display:block;margin:0 auto}
+.about_us{color:#ccc;text-align:center;background:#fff}
+.about_logo{margin-top:40px;margin-bottom:30px}
+.website{padding:30px 0;color:#66666}
+.about_us .join_us{padding-left:50px;font-size:30px;margin-bottom:30px;display:inline-block}
+.footer_search{margin-bottom:30px}
+.footer_search:hover{cursor:pointer}
+.footer_search input{width:360px;height:28px;padding:10px;background:#dbdbdb;border:0;font-size:16px;border-radius:4px;text-indent:20px;outline:0}
+.footer_search span{display:inline-block;position:relative}
+.footer_search span a{position:absolute;right:15px;top:14px}
+.call_us{color:#666;padding-bottom:20px}
+.call_us span:not(:nth-child(1)){margin-left:10px}
+.copyright{border-top:1px solid #e5e5e5}
+.copyright p{padding:10px 0;color:#ccc;font-size:12px}
+.b_30{margin-bottom:16px}
+.t_40{margin-top:43px;margin-bottom:20px}
+.f_18{font-size:18px}
+.b_60{margin-bottom:60px}
+.p_80{padding-top:80px}
+.nav_list a{flex:1;cursor:pointer;color:#fff}
+.nav_list a:hover{color:#009fff}
+.nav_list a.abg{background-color:#147f50;}
+.cWra{opacity:0;position:absolute;left:0;top:0;width:100%;transition:opacity .3s linear}
+.ban1,.ban2{position:relative}
+.cwShow{opacity:1;display:block;}
+.swiper-container{margin-top:140px;margin-bottom:40px}
+.ad_font{color:#666}
+.more{position:relative;top:3px;left:5px}
+.list{max-width:1000px;margin:0 auto;box-sizing:border-box;padding:10px 20px}
+.list_box.special{font-size:0}
+.list_box{position:relative}
+.list_box:not(:last-child):after{content:'';position:absolute;height:100%;right:0;top:0;width:1px;background-color:#ebebeb}
+.box_contain_img{display:inline-block;width:25%;vertical-align:top;text-align:center}
+.box_contain_span{display:inline-block;width:60%;vertical-align:top;font-size:16px}
+.nav_top{position:fixed;top:0;left:0;width:100%;z-index:10000}
+.banner{padding-top:80px;position: relative;height:816px;  overflow: hidden;}
+.bannerImg{position:relative; width: 100%; height: 100%; overflow: hidden;  }
+.bannerImg img{position: absolute;display: none; width: 1920px; left:50%; top: 0;   margin-left:-960px;   height: 816px; }
+.cators{  position: absolute; bottom: 20px; left: 50%; z-index: 5; cursor:pointer;}
+.cators li{width: 12px;height: 12px; border-radius:100%; margin-right:10px; border:1px solid #fff; display: inline-block  }
+.cators li.active{background-color:#fff;}
+.bannerC{position: absolute; top: 0; bottom: 0; cursor:pointer; left: 0; width: 15%; font-size: 20px; color: #fff; text-align: center; text-shadow: 0 1px 2px rgba(0,0,0,.6); filter: alpha(opacity=50); opacity: .5;} 
+.bannerC:hover{  filter: alpha(opacity=90); outline: 0; opacity: .9} 
+.bannerR{right: 0; left: auto; background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%); background-image: -o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%); background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0001)),to(rgba(0,0,0,.5))); background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1); background-repeat: repeat-x; }
+.bannerL{background-image: -webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%); background-image: -o-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%); background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001))); background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1); background-repeat: repeat-x;} 
+.contain-fuil{overflow:hidden}
+#jobBox{height:620px;transition:height .6s ease-out;overflow:hidden}
+.toggleJob{text-align:center;margin-bottom:40px}
+.toggleJob span{padding:15px 30px;border:solid 1px #333;cursor:pointer}
+.goods_button1:hover{color:#fff;text-decoration:none}
+

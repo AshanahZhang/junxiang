@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="junxiang:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/junxiang_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="junxiang/web/Web2" />
+      <element id="javaee-facet-resources" facet="junxiang/web/Web" />
+    </root>
+  </artifact>
+</component>

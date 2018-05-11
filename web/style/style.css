@@ -1,0 +1,495 @@
+@charset "utf-8";
+/* CSS Document */
+/*公用*/
+*{margin:0; padding:0;}
+body{margin:0 auto; padding:0; font-family:"微软雅黑"; font-size:12px;width: 1500px;}
+a{ text-decoration:none; color:#333;}
+a:hover{color:#999;}
+p{display:block;}
+ul li{list-style:none; display:block;}
+span{display:block;}
+.left{float:left;}
+.right{float:right;}
+img{border:0;}
+ul,h1,h2,dl,dt,dd{ margin:0px; padding:0px;}
+.clear{ clear:both; font-size:0px;}
+/*公用*/
+.BMap_Marker{
+	background: url("images/marker.png")/*tpa=http://www.diqingkeji.com/style/images/marker.png*/ !important;
+}
+
+/*头部*/
+header{width:100%;  float:left; clear:both;}
+.top{width:100%; height:100px; float:left; background:rgba(51,89,196,0.5); position:relative; z-index:999; top:0px;}
+.nav{width:100%; height:100px;     margin-left:54px;}
+.nav ul li{width:100px; height:80px; float:left; text-align:center; font-size:14px; font-weight:bold; color:#FFF; padding-top:20px; line-height:23px; margin-left:32px;}
+.nav ul li:hover{background:#004694;}
+.ahover{background:#004694;}
+.nav ul li a{ display:block; color:#FFF;}
+.nav ul li a font{font-size:12px; font-weight:normal;}
+.nav ul li a:hover{background:#004694;}
+.ahover {background:#004694;}
+.top2{width:100%; height:72px; background:#6984cb; float:left; }
+.top2_1{width:1100px; margin:0 auto; height:52px; padding-top:20PX; line-height:23px; font-size:18px; color:#FFF; padding-left:0px;}
+.top2_1_ss{width:400px; height:40px; float:right;}
+.top2_1_ss1{width:290px; height:26px; line-height:26px; float:left; padding:5px 0 5px 10px;}
+.top2_1_ss2{width:82px; height:40px; background:url("images/sousuo_26.gif")/*tpa=http://www.diqingkeji.com/style/images/sousuo_26.gif*//*tpa=http://www.prime.net.cn/images/sousuo_26.gif*//*tpa=http://www.prime.net.cn/images/sousuo_26.gif*/; float:left; border:none; cursor:pointer;}
+/*banner*/
+.banner_index{height:582px;overflow:hidden;width: 100%;margin:0px auto;}
+.banner_index .btn,.banner_pro .bBtn{position: absolute;top:235px;width: 56px;height: 78px;display: block;z-index: 3;}
+.banner_index .btnPre,.banner_pro .bPre{background: url("images/bg_btnPre_index.png")/*tpa=http://www.diqingkeji.com/style/images/bg_btnPre_index.png*//*tpa=http://www.prime.net.cn/images/bg_btnPre_index.png*//*tpa=http://www.prime.net.cn/images/bg_btnPre_index.png*/ no-repeat 0 0;left:20px;}
+.banner_index .btnPre:hover,.banner_pro .bPre:hover{background: url("images/bg_btnPre_index_hover.png")/*tpa=http://www.diqingkeji.com/style/images/bg_btnPre_index_hover.png*//*tpa=http://www.prime.net.cn/images/bg_btnPre_index_hover.png*//*tpa=http://www.prime.net.cn/images/bg_btnPre_index_hover.png*/ no-repeat 0 0;}
+.banner_index .btnNext,.banner_pro .bNext{background: url("images/bg_btnNext_index.png")/*tpa=http://www.diqingkeji.com/style/images/bg_btnNext_index.png*//*tpa=http://www.prime.net.cn/images/bg_btnNext_index.png*//*tpa=http://www.prime.net.cn/images/bg_btnNext_index.png*/ no-repeat 0 0;right: 20px;}
+.banner_index .btnNext:hover,.banner_pro .bNext:hover{background: url("images/bg_btnNext_index_hover.png")/*tpa=http://www.diqingkeji.com/style/images/bg_btnNext_index_hover.png*//*tpa=http://www.prime.net.cn/images/bg_btnNext_index_hover.png*//*tpa=http://www.prime.net.cn/images/bg_btnNext_index_hover.png*/ no-repeat 0 0;}
+.banner_index .banner_wrap{position: absolute;left:0px;top: 0px; z-index: 2;}
+.banner_index .banner_wrap li{width: 1680px;float: left;}
+.banner_wrap li img{width:100%;}
+.indexBanner_num{width:1000px;margin: -30px auto;padding:10px 0;text-align: center; position:relative; z-index:999;} 
+.indexBanner_num a{width: 8px;height: 8px;display: inline-block;_zoom:1;background: url("../images/bg_num.png")/*tpa=http://www.diqingkeji.com/images/bg_num.png*//*tpa=http://www.prime.net.cn/images/bg_num.png*//*tpa=http://www.prime.net.cn/images/bg_num.png*/ no-repeat 0 0;font-size: 0px;line-height: 0px;margin:0 1px;}
+.indexBanner_num a.on,.indexBanner_num a:hover{background: url("images/bg_num_on.png.jpg")/*tpa=http://www.diqingkeji.com/style/images/bg_num_on.png.jpg*//*tpa=http://www.prime.net.cn/images/bg_num_on.png*/ no-repeat 0 0;}
+
+/*版面内容*/
+.page{width:100%; height:auto; float:left; clear:both;}
+.spec1{width:1100px; height:150px; margin:0 auto; margin-bottom:80px;}
+.spec1 ul li{width:150px; height:150px; float:left; text-align:center; font-size:14px; margin:0 100px 0 100px;}
+.spec1_tb{width:100px; height:97px; border-radius:5px; margin-bottom:5px; -moz-border-radius:5px; -ms-border-radius:5px; -o-border-radius:5px; -webkit-border-radius:5px; display:block; background:#bfc0d3; transition:background 0.6s; -moz-transition:background 0.6s; -ms-transition:background 0.6s; -o-transition:background 0.6s; -webkit-transition:background 0.6s; cursor:pointer; margin:0 auto;}
+.spec1_tb:hover{background:#004694;}
+.spec2{width:100%; height:453px; float:left; background:#f0f0f0;}
+.spec2_1{width:1100px; margin:0 auto;}
+.spec2_1_tit{width:1100px; height:22px; margin:0 auto; background:url("images/sy_40.jpg")/*tpa=http://www.diqingkeji.com/style/images/sy_40.jpg*//*tpa=http://www.prime.net.cn/images/sy_40.jpg*//*tpa=http://www.prime.net.cn/images/sy_40.jpg*/;}
+.spec2_1_nr{width:1100px; height:245px; margin:0 auto; margin-top:62px; text-align:center;}
+.spec2_1_nr span{font-size:20px; color:#004694; font-weight:bold; margin-bottom:43px;}
+.spec2_1_nr ul li{width:180px; height:175px; float:left; text-align:center; font-size:14px;}
+.spec2_1_nr ul li img{max-width:190px;}
+.spec2_1_nr ul li:hover{background:#cdd5ec; color:#004694;}
+.spec2_1_nr ul li a{width:180px;  display:block; line-height:45px; float:left;font-size: 17px;}
+.spec2_1_nr ul li a:hover{color:#004694;}
+.pro_index{height: 390px}
+
+.spec3{width:100%; height:648px; float:left;}
+.spec3_1{width:940px; height:488px; margin:0 auto; padding:80px;}
+.spec3_1_l{width:489px; height:471px; float:left;}
+.spec3_1_2{width:422px; height:22px; float:right; margin-top:145px;}
+.spec3_1_2 span{color:#004694; font-size:16px; margin-bottom:30px; font-weight:bold;}
+.spec3_1_2 p{line-height:22px;}
+
+.spec4{width:100%; height:400px; float:left;}
+.spec4_1{width:1100px; height:370px; margin:0 auto;}
+.spec4_1_1{width:1040px; height:215px; margin:0 auto; margin-top:70px; text-align:center;}
+.spec4_1_1 span{color:#004694; font-size:20px; font-weight:bold;}
+.spec4_1_1 div{width:1040px; height:155px; float:left; margin-top:40px;}
+.spec4_1_1 div ul li{float: left;
+	border: #CCC 1px solid;
+	margin-bottom: 9px;
+	margin-right: 9px;}
+
+.spec5{width:100%; height:85px; float:left; background:#6984cb; margin-top:105px;}
+.spec5_1{width:1100px; height:85px; margin:0 auto; color:#FFF; font-size:16px; line-height:80px;}
+.spec5_1_lx{width:99px; height:119px; float:right; margin-top:-35px;}
+
+/*底部*/
+.footer{width:100%; height:388px; background:#7c7c7c; float:left;}
+.foot{width:993px; height:246px; margin:0 auto; margin-top:50px;}
+.foot_l{width:326px; height:246px; float:left;}
+.foot_m{width:288px; height:246px; float:left; margin-left:98px; color:#FFF; line-height:20px;font-size: 15px;}
+.foot_r{width:200px; height:246px; float:left; margin-left:80px; color:#FFF; line-height:22px; padding-top:30px;}
+.foot2{width:1010px; height:14px; margin:0 auto; background:url("images/foot_97.jpg")/*tpa=http://www.diqingkeji.com/style/images/foot_97.jpg*//*tpa=http://www.prime.net.cn/images/foot_97.jpg*//*tpa=http://www.prime.net.cn/images/foot_97.jpg*/; margin-top:15px;}
+.foot3{width:1010px; height:55px; margin:0 auto; line-height:55px; color:#FFF;}
+.foot3 img{float:left;}
+
+/*----------------------------------------------企业介绍--------------------------------------------------*/
+.about{width:1100px; height:auto; margin:0 auto;}
+.about_tit{width:1100px; height:65px; float:left; background:url("images/about_03.jpg")/*tpa=http://www.diqingkeji.com/style/images/about_03.jpg*//*tpa=http://www.prime.net.cn/images/about_03.jpg*//*tpa=http://www.prime.net.cn/images/about_03.jpg*/; color:#FFF; font-size:16px; text-align:center; margin-top:15px;}
+.about_nr{width:1100px; height:485px; float:left; margin-top:35px;}
+.about_nr img{float:left;}
+.about_nr p{width:490px; height:485px; float:right; line-height:22px;}
+
+
+.about2{width:1100px; height:auto; float:left; margin-top:85px;}
+.about2_1{width:260px; height:75px; float:left; background:url("images/about_10.jpg")/*tpa=http://www.diqingkeji.com/style/images/about_10.jpg*//*tpa=http://www.prime.net.cn/images/about_10.jpg*//*tpa=http://www.prime.net.cn/images/about_10.jpg*/;}
+.application_line1{width: 93px}
+
+
+.about_tab{ width:545px; height:auto; float:left;}
+.application_tab{width: 887px}
+.tab{ width:545px; height:75px; float:left; margin-left:114px;}
+.tab ul li{ width:169px; height:70px; background:url("images/about_14.jpg")/*tpa=http://www.diqingkeji.com/style/images/about_14.jpg*//*tpa=http://www.prime.net.cn/images/about_14.jpg*//*tpa=http://www.prime.net.cn/images/about_14.jpg*/; color:#FFF;  float:left; cursor:pointer; text-align:center;
+padding-top:5px; margin-right:15px;}
+.tab4_1{
+	width: 740px;
+	margin-left: 87px;
+}
+.tab ul li.on_zzjs{ background:url("images/about_12.jpg")/*tpa=http://www.diqingkeji.com/style/images/about_12.jpg*//*tpa=http://www.prime.net.cn/images/about_12.jpg*//*tpa=http://www.prime.net.cn/images/about_12.jpg*/; color:#FFF;}
+.about3{width:1100px; height:auto; float:left; margin-top:30px; margin-bottom:70px;}
+.about3_1{width:1100px; height:auto; float:left;}
+.about3_1 ul li{width:324px; height:253px; float:left; background:url("images/about_23.jpg")/*tpa=http://www.diqingkeji.com/style/images/about_23.jpg*//*tpa=http://www.prime.net.cn/images/about_23.jpg*//*tpa=http://www.prime.net.cn/images/about_23.jpg*/; padding-top:10px; text-align:center; margin:0 20px 50px 20px;}
+.about3_1 ul li img{max-width:300px; max-height:226px;}
+.about3_1 p{font-size:14px; padding:0 10px 0 10px; line-height:26px;}
+.about4{width:1100px; height:30px; text-align:center; font-size:24px; font-weight:bold; color:#949494; float:left;}
+#goTopBtn { 
+POSITION: fixed; TEXT-ALIGN: center; LINE-HEIGHT: 30px; WIDTH: 50px; BOTTOM: 35px; HEIGHT: 53px; FONT-SIZE: 12px; CURSOR: pointer; RIGHT: 10px; _position: absolute; _right: auto 
+}
+
+.introduction img{
+
+}
+.partners img{
+	width: 85%;
+}
+.jiagou img{
+	width: 100%;
+}
+.product-introduce{
+	text-align: center;
+}
+.tit_span{
+	margin-top: 5px;
+}
+/*----------------------------------------------产品展示--------------------------------------------------*/
+.product{width:1000px; height:auto; margin:0 auto;}
+.product_tit{width:1000px; height:45px; float:left; margin-top:15px;}
+.product_tit1{width:1000px; height:30px; float:left;}
+.product_tit1 em{font-style:normal;}
+.product_tit1 .xtit{font-size:18px; color:#004694; font-weight:bold;}
+.xtit2{font-size:14px;}
+.product_tit2{width:1000px; height:15px; float:left; background:url("images/product_03.jpg")/*tpa=http://www.diqingkeji.com/style/images/product_03.jpg*//*tpa=http://www.prime.net.cn/images/product_03.jpg*//*tpa=http://www.prime.net.cn/images/product_03.jpg*/;}
+.product_sm{width:1000px; height:auto; float:left; line-height:25px; margin-top:15px;}
+.pro{width:1000px; height:20px; float:left; margin-top:20px; font-weight:bold;}
+.pro1{width:398px; height:20px; float:left; background:url("images/product_07.jpg")/*tpa=http://www.diqingkeji.com/style/images/product_07.jpg*//*tpa=http://www.prime.net.cn/images/product_07.jpg*//*tpa=http://www.prime.net.cn/images/product_07.jpg*/;}
+.pro2{width:185px; height:20px; float:left; line-height:20px; text-align:center; color:#004694; font-size:16px;}
+.pro3{width:1000px; height:88px; float:left; margin-top:60px;}
+.pro3 a{color:#666; display:block; width:130px; height:88px; float:left; text-align:center; padding-left:40px; font-size:16px; font-weight:bold; line-height:75px; font-family:"宋体";}
+.pro3tit_1{background:url("images/product_11.jpg")/*tpa=http://www.diqingkeji.com/style/images/product_11.jpg*//*tpa=http://www.prime.net.cn/images/product_11.jpg*//*tpa=http://www.prime.net.cn/images/product_11.jpg*/ left no-repeat; margin-right:10px; margin-left:20px;}
+.pro3tit_1:hover{background:url("images/p1_11.jpg")/*tpa=http://www.diqingkeji.com/style/images/p1_11.jpg*//*tpa=http://www.prime.net.cn/images/p1_11.jpg*//*tpa=http://www.prime.net.cn/images/p1_11.jpg*/ no-repeat; color:#FFF;}
+#pro3tit_1hover{background:url("images/p1_11.jpg")/*tpa=http://www.diqingkeji.com/style/images/p1_11.jpg*//*tpa=http://www.prime.net.cn/images/p1_11.jpg*//*tpa=http://www.prime.net.cn/images/p1_11.jpg*/ no-repeat; color:#FFF;}
+.pro3tit_2{background:url("images/product_13.jpg")/*tpa=http://www.diqingkeji.com/style/images/product_13.jpg*//*tpa=http://www.prime.net.cn/images/product_13.jpg*//*tpa=http://www.prime.net.cn/images/product_13.jpg*/ left no-repeat; margin-right:10px; margin-left:20px;}
+.pro3tit_2:hover{background:url("images/p2_11.jpg")/*tpa=http://www.diqingkeji.com/style/images/p2_11.jpg*//*tpa=http://www.prime.net.cn/images/p2_11.jpg*//*tpa=http://www.prime.net.cn/images/p2_11.jpg*/ no-repeat; color:#FFF;}
+#pro3tit_2hover{background:url("images/p2_11.jpg")/*tpa=http://www.diqingkeji.com/style/images/p2_11.jpg*//*tpa=http://www.prime.net.cn/images/p2_11.jpg*//*tpa=http://www.prime.net.cn/images/p2_11.jpg*/ no-repeat; color:#FFF;}
+.pro3tit_3{background:url("images/product_15.jpg")/*tpa=http://www.diqingkeji.com/style/images/product_15.jpg*//*tpa=http://www.prime.net.cn/images/product_15.jpg*//*tpa=http://www.prime.net.cn/images/product_15.jpg*/ left no-repeat; margin-right:10px; margin-left:20px;}
+.pro3tit_3:hover{background:url("images/p3_11.jpg")/*tpa=http://www.diqingkeji.com/style/images/p3_11.jpg*//*tpa=http://www.prime.net.cn/images/p3_11.jpg*//*tpa=http://www.prime.net.cn/images/p3_11.jpg*/ no-repeat; color:#FFF;}
+#pro3tit_3hover{background:url("images/p3_11.jpg")/*tpa=http://www.diqingkeji.com/style/images/p3_11.jpg*//*tpa=http://www.prime.net.cn/images/p3_11.jpg*//*tpa=http://www.prime.net.cn/images/p3_11.jpg*/ no-repeat; color:#FFF;}
+.pro3tit_4{background:url("images/product_17.jpg")/*tpa=http://www.diqingkeji.com/style/images/product_17.jpg*//*tpa=http://www.prime.net.cn/images/product_17.jpg*//*tpa=http://www.prime.net.cn/images/product_17.jpg*/ left no-repeat;  margin-left:20px;}
+.pro3tit_4:hover{background:url("images/p4_11.jpg")/*tpa=http://www.diqingkeji.com/style/images/p4_11.jpg*//*tpa=http://www.prime.net.cn/images/p4_11.jpg*//*tpa=http://www.prime.net.cn/images/p4_11.jpg*/ no-repeat; color:#FFF;}
+#pro3tit_4hover{background:url("images/p4_11.jpg")/*tpa=http://www.diqingkeji.com/style/images/p4_11.jpg*//*tpa=http://www.prime.net.cn/images/p4_11.jpg*//*tpa=http://www.prime.net.cn/images/p4_11.jpg*/ no-repeat; color:#FFF;}
+.pro3tit_5{background:url("images/（5）_03.jpg")/*tpa=http://www.diqingkeji.com/style/images/（5）_03.jpg*//*tpa=http://www.prime.net.cn/images/（5）_03.jpg*//*tpa=http://www.prime.net.cn/images/（5）_03.jpg*/ left no-repeat;  margin-left:20px;}
+.pro3tit_5:hover{background:url("images/5.jpg")/*tpa=http://www.diqingkeji.com/style/images/5.jpg*//*tpa=http://www.prime.net.cn/images/5.jpg*//*tpa=http://www.prime.net.cn/images/5.jpg*/ no-repeat; color:#FFF;}
+#pro3tit_5hover{background:url("images/5.jpg")/*tpa=http://www.diqingkeji.com/style/images/5.jpg*//*tpa=http://www.prime.net.cn/images/5.jpg*//*tpa=http://www.prime.net.cn/images/5.jpg*/ no-repeat; color:#FFF;}
+
+.pro4{width:1000px; height:auto; float:left; margin-top:20px;}
+.pro4 img{max-width:1000px;}
+.pro4 table{border-collapse:collapse;}
+.pro4_1{width:1000px; height:auto; float:left; margin-top:60px; line-height:23px;}
+.pro4_1 span{width:130px; height:63px; float:left; color:#004694; font-size:18px; line-height:60px; margin-right:8px;}
+.pro4_1 span img{float:left;}
+
+.pro5{width:1000px; height:auto; float:left; margin-top:100px;}
+.pro5_1{width:1000px; height:auto; float:left; text-align:center; margin:60px 0 50px 0;}
+.pro5_2{width:576px; height:300px; margin:0 auto;}
+
+/*----------------------------------------------技术支持--------------------------------------------------*/
+.tech{width:1000px; height:auto; margin-top:30px; margin-bottom:85px; float:left;}
+.tech ul li{width:1000px; height:40px; float:left; border-bottom:#666 1px dashed; font-size:14px; font-weight:bold; margin-bottom:25px;}
+.tech ul li a{color:#333;}
+.tech ul li a:hover{color:#004694;}
+.tech ul li p{width:1000px; height:40px; float:left; line-height:22px; font-size:12px; color:#666; font-weight:normal; padding-top:8px;}
+/*翻页*/
+.pageNavi{ padding:10px 0 10px 0; text-align:center;font-size:12px;float:left;width:100%;}
+.wp-pagenavi { clear:both;	 
+}
+.wp-pagenavi A {
+	BORDER-RIGHT: #bfbfbf 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #bfbfbf 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 3px; MARGIN: 2px; BORDER-LEFT: #bfbfbf 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #bfbfbf 1px solid; TEXT-DECORATION: none;color:#666;
+}
+.wp-pagenavi span {
+	BORDER-RIGHT: #bfbfbf 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #bfbfbf 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 3px; MARGIN: 2px; BORDER-LEFT: #bfbfbf 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #bfbfbf 1px solid; TEXT-DECORATION: none;
+	display:inline;
+}
+.wp-pagenavi span a{
+	BORDER-RIGHT: #bfbfbf 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #bfbfbf 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 3px; MARGIN: 2px; BORDER-LEFT: #bfbfbf 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #bfbfbf 1px solid; TEXT-DECORATION: none;
+	display:inline;
+}
+
+.wp-pagenavi A:hover {
+	border:#999 1px solid; background:#2358ad; color:#FFF;
+}
+.wp-pagenavi a.current {
+	border:#999 1px solid; background:#2358ad; color:#FFF; font-weight:normal; float:none;
+}
+.tech1{width:1000px; height:68px; float:left;}
+.tech1_1{width:1000px; height:33px; float:left; text-align:center; font-size:18px; font-weight:bold; line-height:33px; border-bottom:#999 1px solid;}
+.tech1_2{width:1000px; height:30px; float:left; text-align:center; font-size:12px; line-height:30px;}
+.tech p{line-height:22px; margin-top:10px;}
+/*----------------------------------------------特有技术--------------------------------------------------*/
+.ty_tech{width:1000px; height:auto; margin-top:10px; margin-bottom:85px; float:left;}
+.ty_tech p{margin-top:30px; float:left; text-align:center; line-height:25px;}
+.ty_tech1{width:1000px; height:88px; float:left;}
+.ty_tech1 a{display:block; width:169px; height:83px; float:left; margin:0 30px 0 10px;}
+.tech_01{background:url("images/tyjs1_03.jpg")/*tpa=http://www.diqingkeji.com/style/images/tyjs1_03.jpg*//*tpa=http://www.prime.net.cn/images/tyjs1_03.jpg*//*tpa=http://www.prime.net.cn/images/tyjs1_03.jpg*/;}
+.tech_01:hover{background:url("images/tyjs2_03.jpg")/*tpa=http://www.diqingkeji.com/style/images/tyjs2_03.jpg*//*tpa=http://www.prime.net.cn/images/tyjs2_03.jpg*//*tpa=http://www.prime.net.cn/images/tyjs2_03.jpg*/;}
+.tech_01hover{background:url("images/tyjs2_03.jpg")/*tpa=http://www.diqingkeji.com/style/images/tyjs2_03.jpg*//*tpa=http://www.prime.net.cn/images/tyjs2_03.jpg*//*tpa=http://www.prime.net.cn/images/tyjs2_03.jpg*/;}
+.tech_02{ background:url("images/tyjs_03.jpg")/*tpa=http://www.diqingkeji.com/style/images/tyjs_03.jpg*//*tpa=http://www.prime.net.cn/images/tyjs_03.jpg*//*tpa=http://www.prime.net.cn/images/tyjs_03.jpg*/;}
+.tech_02:hover{ background:url("images/tyjs3_03.jpg")/*tpa=http://www.diqingkeji.com/style/images/tyjs3_03.jpg*//*tpa=http://www.prime.net.cn/images/tyjs3_03.jpg*//*tpa=http://www.prime.net.cn/images/tyjs3_03.jpg*/;}
+.tech_02hover{ background:url("images/tyjs3_03.jpg")/*tpa=http://www.diqingkeji.com/style/images/tyjs3_03.jpg*//*tpa=http://www.prime.net.cn/images/tyjs3_03.jpg*//*tpa=http://www.prime.net.cn/images/tyjs3_03.jpg*/;}
+
+/*----------------------------------------------诚聘英才--------------------------------------------------*/
+.cpyc{width:1000px; height:auto; float:left;  margin-top:30px; margin-bottom:85px;} 
+.cpyc img{display:block; margin:0 auto;}
+.cpyc p{width:1000px; height:auto; line-height:25px; font-size:14px;}
+.cpyc table{margin-top:10px; margin-bottom:60px;}
+
+.cpyc1{background:#e9e9e9;}
+.cpyc1 td{font-size:16px; font-weight:bold;}
+.cpyc2{ width:1000px; height:110px;}
+.cpyc3{border-bottom:#666 1px dashed; padding:10px 0 10px 0;}
+.cpyc4{ width:230px; height:75px; border-right:#666 1px solid; line-height:70px; margin-right:60px; font-weight:bold;}
+
+/*----------------------------------------------联系我们--------------------------------------------------*/
+.contact{width:1000px; height:auto; float:left;  margin-top:30px; margin-bottom:85px;} 
+.contact p span{font-size:14px;}
+
+ .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+	
+/*----------------------------------------------解决方案--------------------------------------------------*/
+.ty_tech{width:1000px; height:auto; margin-top:10px; margin-bottom:85px; float:left;}
+.ty_tech p{margin-top:30px; float:left; text-align:left; line-height:25px;}
+.ty_tech p font{font-size:16px; color:#004898; font-weight:bold;}
+.ty_tech p img{display:block; margin:0 auto;}
+
+.jjfa{width:1000px; height:88px; float:left;}
+.jjfa a{display:block; width:169px; height:83px; float:left; margin:0 20px 0 10px;}
+.jjfa1{background:url("images/jjfa2_03.jpg")/*tpa=http://www.diqingkeji.com/style/images/jjfa2_03.jpg*//*tpa=http://www.prime.net.cn/images/jjfa2_03.jpg*//*tpa=http://www.prime.net.cn/images/jjfa2_03.jpg*/;}
+.jjfa1:hover{background:url("images/fa1_03.jpg")/*tpa=http://www.diqingkeji.com/style/images/fa1_03.jpg*//*tpa=http://www.prime.net.cn/images/fa1_03.jpg*//*tpa=http://www.prime.net.cn/images/fa1_03.jpg*/;}
+.jjfa1hover{background:url("images/fa1_03.jpg")/*tpa=http://www.diqingkeji.com/style/images/fa1_03.jpg*//*tpa=http://www.prime.net.cn/images/fa1_03.jpg*//*tpa=http://www.prime.net.cn/images/fa1_03.jpg*/;}
+.jjfa2{background:url("images/jjfa_03.jpg")/*tpa=http://www.diqingkeji.com/style/images/jjfa_03.jpg*//*tpa=http://www.prime.net.cn/images/jjfa_03.jpg*//*tpa=http://www.prime.net.cn/images/jjfa_03.jpg*/}
+.jjfa2:hover{background:url("images/fa2_03.jpg")/*tpa=http://www.diqingkeji.com/style/images/fa2_03.jpg*//*tpa=http://www.prime.net.cn/images/fa2_03.jpg*//*tpa=http://www.prime.net.cn/images/fa2_03.jpg*/;}
+.jjfa2hover{background:url("images/fa2_03.jpg")/*tpa=http://www.diqingkeji.com/style/images/fa2_03.jpg*//*tpa=http://www.prime.net.cn/images/fa2_03.jpg*//*tpa=http://www.prime.net.cn/images/fa2_03.jpg*/;}
+.jjfa3{background:url("images/jjfa_05.jpg")/*tpa=http://www.diqingkeji.com/style/images/jjfa_05.jpg*//*tpa=http://www.prime.net.cn/images/jjfa_05.jpg*//*tpa=http://www.prime.net.cn/images/jjfa_05.jpg*/;}
+.jjfa3:hover{background:url("images/fa3_03.jpg")/*tpa=http://www.diqingkeji.com/style/images/fa3_03.jpg*//*tpa=http://www.prime.net.cn/images/fa3_03.jpg*//*tpa=http://www.prime.net.cn/images/fa3_03.jpg*/;}
+.jjfa3hover{background:url("images/fa3_03.jpg")/*tpa=http://www.diqingkeji.com/style/images/fa3_03.jpg*//*tpa=http://www.prime.net.cn/images/fa3_03.jpg*//*tpa=http://www.prime.net.cn/images/fa3_03.jpg*/;}
+.jjfa4{background:url("images/jjfa_07.jpg")/*tpa=http://www.diqingkeji.com/style/images/jjfa_07.jpg*//*tpa=http://www.prime.net.cn/images/jjfa_07.jpg*//*tpa=http://www.prime.net.cn/images/jjfa_07.jpg*/;}
+.jjfa4:hover{background:url("images/fa4_03.jpg")/*tpa=http://www.diqingkeji.com/style/images/fa4_03.jpg*//*tpa=http://www.prime.net.cn/images/fa4_03.jpg*//*tpa=http://www.prime.net.cn/images/fa4_03.jpg*/;}
+.jjfa4hover{background:url("images/fa4_03.jpg")/*tpa=http://www.diqingkeji.com/style/images/fa4_03.jpg*//*tpa=http://www.prime.net.cn/images/fa4_03.jpg*//*tpa=http://www.prime.net.cn/images/fa4_03.jpg*/;}
+.jjfa5{background:url("images/jjfa_09.jpg")/*tpa=http://www.diqingkeji.com/style/images/jjfa_09.jpg*//*tpa=http://www.prime.net.cn/images/jjfa_09.jpg*//*tpa=http://www.prime.net.cn/images/jjfa_09.jpg*/;}
+.jjfa5:hover{background:url("images/fa5_03.jpg")/*tpa=http://www.diqingkeji.com/style/images/fa5_03.jpg*//*tpa=http://www.prime.net.cn/images/fa5_03.jpg*//*tpa=http://www.prime.net.cn/images/fa5_03.jpg*/;}
+.jjfa5hover{background:url("images/fa5_03.jpg")/*tpa=http://www.diqingkeji.com/style/images/fa5_03.jpg*//*tpa=http://www.prime.net.cn/images/fa5_03.jpg*//*tpa=http://www.prime.net.cn/images/fa5_03.jpg*/;}
+
+/* tab 选项卡 */
+.producttab{
+	margin-left: 126px;
+	width: 100%;
+	margin-top: 30px;
+}
+#tableft {
+	float: left;
+	width: 460px;
+	font-size: 20px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CACACA;
+}
+
+#bg {
+
+}
+
+#tabright {
+	float: right;
+	width: 128px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CACACA;
+}
+
+#TabCon1,#TabCon2 {
+	width: 716px;
+	border-left: #CACACA 1px solid;
+	border-bottom: #CACACA 1px solid;
+	border-right: #CACACA 1px solid;
+}
+
+.TabCon a {
+	display: inline-block;
+	float: left;
+}
+
+.TabCon {
+	width: 688px;
+	border: #CACACA 1px solid;
+	float: left;
+	padding: 0 10px;
+	/*overflow: hidden;*/
+	height: auto;
+	background-color: #eee;
+	-moz-border-radius: 10px 0 10px 10px;
+	border-radius: 10px 0 10px 10px;
+}
+
+.TabCon .aGray { /*line-height: 36px;	*/
+	line-height: 30px;
+	background: url("images/tabOff_left.png")/*tpa=http://www.diqingkeji.com/style/images/tabOff_left.png*//*tpa=http://www.magnaflux.cn/images/tabOff_left.png*/ no-repeat 0 0;
+	white-space: nowrap;
+	padding: 0 0 12px 0;
+}
+
+.TabCon .gray {
+	padding: 0px 30px 12px 0;
+	margin-left: 10px;
+	background: url("images/tabOff_right.png")/*tpa=http://www.diqingkeji.com/style/images/tabOff_right.png*//*tpa=http://www.magnaflux.cn/images/tabOff_right.png*/ no-repeat 100% 0;
+	color: #FFFFFF;
+}
+
+.TabCon .aBlue { /*line-height: 36px;	*/
+	line-height: 30px;
+	background: url("images/tabOn_left.png")/*tpa=http://www.diqingkeji.com/style/images/tabOn_left.png*//*tpa=http://www.magnaflux.cn/images/tabOn_left.png*/ no-repeat 0 0;
+	white-space: nowrap;
+	/*padding: 0 0 12px 0;*/
+}
+
+.TabCon .blue {
+	padding: 0px 30px 12px 0;
+	margin-left: 10px;
+	background: url("images/tabOn_right.png")/*tpa=http://www.diqingkeji.com/style/images/tabOn_right.png*//*tpa=http://www.magnaflux.cn/images/tabOn_right.png*/ no-repeat 100% 0;
+	color: #FFFFFF;
+}
+
+.TabCon img {
+	margin-bottom: 0;
+}
+
+.xixi1 {
+	width: 420px;
+	height: 41px;
+	line-height: 41px;
+	background-image: url("images/Inner-2.jpg")/*tpa=http://www.diqingkeji.com/style/images/Inner-2.jpg*//*tpa=http://www.magnaflux.cn/images/Inner-2.jpg*/;
+	cursor: pointer;
+}
+
+.xixi2 {
+	width: 420px;
+	height: 41px;
+	line-height: 41px;
+	background-image: url("images/Inner-22.jpg")/*tpa=http://www.diqingkeji.com/style/images/Inner-22.jpg*//*tpa=http://www.magnaflux.cn/images/Inner-22.jpg*/;
+	cursor: pointer;
+}
+
+.xixi3 {
+	float: left;
+	border: 1px solid #cacaca;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width: 538px;
+	height: 50px;
+	margin-top: 2px;
+	background-color: #f9f9f9;
+}
+
+.tabright3 {
+	float: left;
+	width: 540px;
+	overflow: hidden;
+	height: 40px;
+	/*border-bottom: 1px solid #CACACA;*/
+}
+
+.tab1,.tab2 {
+	width: 210px;
+	height: 41px;
+	line-height: 41px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	color: #000;
+}
+
+.categoryTab {
+	width: 100px;
+	height: 41px;
+	line-height: 41px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	color: #000;
+}
+
+.xixi3 .currentCls {
+	color: #0070BD;
+	font-weight: bold;
+}
+
+#TabCon1 .blue,#TabCon2 .blue {
+	display: block;
+	display: inline-block;
+	height: 22px;
+	line-height: 22px;
+	background: url("images/tabOn_right.gif")/*tpa=http://www.diqingkeji.com/style/images/tabOn_right.gif*//*tpa=http://www.magnaflux.cn/images/tabOn_right.gif*/ no-repeat right top;
+	color: #FFFFFF;
+	margin-top: 9px;
+	margin-right: 10px;
+	margin-bottom: 9px;
+	margin-left: 5px;
+	padding-top: 0;
+	padding-right: 25px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#TabCon1 .gray,#TabCon2 .gray {
+	display: block;
+	display: inline-block;
+	height: 22px;
+	line-height: 22px;
+	background: url("images/tabOff_right.gif")/*tpa=http://www.diqingkeji.com/style/images/tabOff_right.gif*//*tpa=http://www.magnaflux.cn/images/tabOff_right.gif*/ no-repeat right top;
+	margin-top: 9px;
+	margin-right: 5px;
+	margin-bottom: 9px;
+	margin-left: 5px;
+	padding-top: 0;
+	padding-right: 25px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#TabCon1 img,#TabCon2  img {
+	margin-bottom: -7px;
+}
+
+.tab_title {
+	display: block;
+	width: 140px;
+	float: left;
+	padding-top: 0;
+	padding-right: 0px;
+	padding-bottom: 0;
+	padding-left: 20px;
+}
+.products{
+	float: left;
+	width: 100%;
+	margin-left: 90px;
+	margin-top: 46px;
+}
+.product_box {
+	float: left;
+	width: 100%;
+	font-weight: bold;
+	margin-bottom: 20px;
+	/* background: url(../images/Inner_10.png) no-repeat 0 30px; */
+	line-height: 35px;
+	text-align: center;
+}
+.margin_right_60 {
+	margin-right: 60px;
+}
+.type-title{
+	float:left;width:100px;margin-top: 20px
+}
+.type-box{
+	width:440px;float:right;padding: 10px 0;
+}
+.picture-item{
+	height: 250px;
+	width: 22%;
+	margin-top: 24px;
+	margin-left: 0;
+}
+/* tab 选项卡end */
