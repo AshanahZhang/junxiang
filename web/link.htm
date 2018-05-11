@@ -31,7 +31,7 @@
     <script type="text/javascript" src="style/jQuery.js" tppabs="http://www.diqingkeji.com/style/jQuery.js"></script>
     <script type="text/javascript" src="style/common.js" tppabs="http://www.diqingkeji.com/style/common.js"></script>
 
-    <script type="text/javascript" src="../api.map.baidu.com/api-key=&v=1.1&services=true"
+    <script type="text/javascript" src="./api.map.baidu.com/map.js"
             tppabs="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
 
 
@@ -97,9 +97,11 @@
             <div style="width:500px;height:450px;border:#ccc solid 1px; float:left;" id="dituContent"></div>
             <div style="    margin-left: 520px;"><p style="white-space: normal; text-align: justify;" dir="ltr"><br/>
             </p>
-                <p style="white-space: normal; text-align: justify;" dir="ltr"><span style="font-size: 18px;"><strong>总部：</strong>湖南省长沙市岳麓区奥克斯广场A座13层</span>
+                <p style="white-space: normal; text-align: justify;" dir="ltr"><span style="font-size: 18px;"><strong>总部：</strong>湖湖南省长沙市开福区捞刀河镇大星工业区236号</span>
                 </p>
-                <p style="white-space: normal; text-align: justify;" dir="ltr"><span style="font-size: 18px;"><strong>电话：</strong>+0731-84428011</span>
+                <p style="white-space: normal; text-align: justify;" dir="ltr"><span style="font-size: 18px;"><strong>电话：</strong>0731-84428011</span>
+                </p>
+                <p style="white-space: normal; text-align: justify;" dir="ltr"><span style="font-size: 18px;"><strong>手机：</strong>谭先生 13975890037</span>
                 </p>
                 <p style="white-space: normal; text-align: justify;" dir="ltr"><span style="font-size: 18px;"><strong>邮箱：</strong>1106311650@qq.com&nbsp;</span>
                 </p>
@@ -110,15 +112,17 @@
                 </p>
                 <p style="white-space: normal; text-align: justify;" dir="ltr"><span style="font-size: 18px;"><strong>Tel:</strong>&nbsp;0731-84428011</span>
                 </p>
+                <p style="white-space: normal; text-align: justify;" dir="ltr"><span style="font-size: 18px;"><strong>Mobile:</strong>&nbsp;谭先生 13975890037</span>
+                </p>
                 <p style="white-space: normal; text-align: justify;" dir="ltr"><span style="font-size: 18px;"><strong>E-mail:</strong>&nbsp;1106311650@qq.com&nbsp;</span>
                 </p>
                 <p style="white-space: normal; text-align: justify;" dir="ltr"><span style="font-size: 18px;"><strong>Zip code:&nbsp;</strong>410003&nbsp;</span>
                 </p>
-                <p style="white-space: normal; text-align: right;" dir="ltr"><span style="font-size: 18px;"><img
+                <!--<p style="white-space: normal; text-align: right;" dir="ltr"><span style="font-size: 18px;"><img
                         src="ueditor/php/upload/image/20170313/1489390410129702.jpg"
                         tppabs="http://www.diqingkeji.com/ueditor/php/upload/image/20170313/1489390410129702.jpg"
                         title="1489390410129702.jpg" alt="图片20.jpg" width="176" height="177"
-                        style="width: 176px; height: 177px;"/></span></p>
+                        style="width: 176px; height: 177px;"/></span></p>-->
                 <p><br/></p></div>
         </div>
         <script type="text/javascript">
@@ -134,7 +138,7 @@
             //创建地图函数：
             function createMap() {
                 var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
-                var point = new BMap.Point(112.961282, 28.228895);//定义一个中心点坐标
+                var point = new BMap.Point(113.030001,28.296051);//定义一个中心点坐标
                 map.centerAndZoom(point, 17);//设定地图的中心点和坐标并将地图显示在地图容器中
                 window.map = map;//将map变量存储在全局
             }
@@ -162,9 +166,9 @@
 
             //标注点数组
             var markerArr = [{
-                title: "长沙市岳麓区奥克斯广场",
-                content: "奥克斯广场A座13层",
-                point: "112.960895|28.229054",
+                title: "湖南省长沙市开福区捞刀河镇",
+                content: "大星工业区236号",
+                point: "113.030001|28.296051",
                 isOpen: 0,
                 icon: {w: 23, h: 25, l: 46, t: 21, x: 9, lb: 12}
             }
@@ -231,7 +235,7 @@
             }
 
             //文字标注数组
-            var lbPoints = [{point: "112.957428|28.231489", content: "湖南省长沙市岳麓区奥克斯广场A座13层"}
+            var lbPoints = [{point: "113.026801|28.298801", content: "湖南省长沙市开福区捞刀河镇大星工业区236号"}
             ];
 
             //向地图中添加文字标注函数
@@ -252,7 +256,8 @@
             initMap();//创建和初始化地图
         </script>
     </div>
-    <div class="about4" style="width:1000px;    margin-left: 13%;">Technology for a cleaner world</div>
+    <br/>
+    <div class="about4" style="width:1000px;    margin-left: 13%;">为中国智造加油</div>
 </div>
 </div>
 <div class="spec5">
@@ -270,7 +275,7 @@
 <div class="footer">
     <div class="foot">
         <div class="foot_l">
-            <img src="style/images/map2.jpg" tppabs="http://www.diqingkeji.com/style/images/map2.jpg" width="415"
+            <img src="style/images/map.jpg" tppabs="http://www.diqingkeji.com/style/images/map.jpg" width="415"
                  height="260"/>
         </div>
         <div class="foot_m">
@@ -303,7 +308,7 @@
     <div class="foot3">
         <!--<img src="http://www.diqingkeji.com/style/images/foot_99.jpg" />-->
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        版权所有：© 2018长沙骏翔工业技术有限公司 All Rights Reserved &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        版权所有：© 2008长沙骏翔工业技术有限公司 All Rights Reserved &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
